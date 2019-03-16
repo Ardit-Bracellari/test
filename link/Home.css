@@ -1,0 +1,56 @@
+.header{
+    background-color: gray;
+    color: bisque;
+    text-align: center;
+    padding: 14px 10px;
+}
+.info{
+font-size: 19px;
+
+}
+img{
+    width: 450px;
+    height: auto;
+    float: left;
+    margin: 5px 5px;
+
+}
+.finished{
+    float: right;
+}
+.fa {
+    padding: 20px;
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+  }
+  
+.fa-facebook-official {
+    background: rgb(37, 80, 173);
+    color: white;
+  } 
+  .fa-instagram {
+    background: linear-gradient(to right,red,blue);
+    color: white;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }

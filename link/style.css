@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #9c9c9c;
+    padding: 20px;
+    text-align: center;
+  }
+  h1{
+    font-size: 40px;
+  }
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h2{
+    color: #ffffff
+  }
+  p, p1 {
+    font-size: 18px;
+  }
+  /* Create three equal columns that floats next to each other */
+  .side {
+    flex: 30%;
+    background-color: #070706;
+    padding: 10px 10px;
+  }
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: start;
+    background:grey;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 500px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }

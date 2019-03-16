@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+ .header {
+    background-color: #9c9c9c;
+    padding: 20px;
+    text-align: center;
+  }
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .leftcolum{
+    flex: 40%;
+    background-color: #070706;
+    padding: 10px 10px;
+  }
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #363336;
+    color: bisque;
+  }
+  
+  .chip img  {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .rightcolum{
+    flex: 60%;
+    padding: 20px;
+    background-image: url(photo/telephone.jpg);
+    padding: 20px;
+    color:wheat;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(49, 194, 20);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1f1e1c;
+    border-radius: 18px;
+    color: green;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    color: antiquewhite;
+  }
+  .footer {
+    padding: 20px;
+    text-align: start;
+    background:grey;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 500px) {
+    .row {  
+      flex-direction: column;
+    }
+  }
+  
